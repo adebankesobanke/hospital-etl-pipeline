@@ -15,6 +15,17 @@ S3 (Raw CSV)
 → S3 (Curated Parquet - Versioned)
 → Athena (Analytics)
 
+        Raw Data (CSV)
+      (S3 - /raw/)
+               ↓
+     AWS Glue PySpark Job
+   (ETL + Data Quality Layer)
+               ↓
+ Curated Data (Parquet - v2)
+     (S3 - /curated/)
+               ↓
+      Athena Queries
+
 ---
 
 ## ⚙️ Tech Stack
