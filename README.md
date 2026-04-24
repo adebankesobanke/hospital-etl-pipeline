@@ -119,11 +119,17 @@ Stored in Parquet format for efficient querying using Athena.
 
 ## 📷 Screenshots
 
-(To be added)
+### PySpark ETL Script
+![PySpark Script](screenshots/pyspark_script.png)
 
-* Glue job configuration
-* S3 curated outputs
-* Athena query results
+### Glue Job
+![Glue Job](screenshots/glue_job.png)
+
+### S3 Output
+![S3 Output](screenshots/s3_output.png)
+
+### Athena Query
+![Athena Query](screenshots/athena_query.png)
 
 ---
 
