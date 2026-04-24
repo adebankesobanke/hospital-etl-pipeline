@@ -28,6 +28,17 @@ S3 (Raw CSV)
 
 ---
 
+## ⚡ Pipeline Optimization
+
+The pipeline was enhanced with production-grade optimizations:
+
+- Implemented **partitioning** by appointment_date to improve query performance
+- Added **incremental loading** using a watermark to process only new data
+- Switched from overwrite to **append mode** to support continuous data ingestion
+- Applied **repartitioning** to optimize file distribution
+
+These improvements make the pipeline more scalable and efficient for large datasets.
+
 ## ⚙️ Tech Stack
 
 * PySpark
